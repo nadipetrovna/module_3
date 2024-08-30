@@ -14,7 +14,7 @@ def string_info (a):
     return string_a
 def is_contains(a, b):
     count_calls()
-    if a in b:
+    if a.lower() in str(b).lower():
         return True
     else:
         return False
